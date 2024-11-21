@@ -1,33 +1,71 @@
 html, body {
-  	margin: 0;
-  	padding: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #00072D;
 }
 
 header {
-	background-color: #333333;
+	/*background-color: #051650;*/
 	position: fixed;
 	top: auto;
-	width: 940px;
 	z-index: 10;
 	width: 100%;
+	display: flex;
+}
+
+.logo {
+	padding: 20px 20px;
+}
+
+.logo-text {
+	border: 0.5px solid #fff;
+	color: #1A43BF;
+	box-sizing: border-box;
+	font-size: 35px;
+	padding: 15px 20px;
 }
 
 nav {
- 	margin: 0;
-  	padding: 20px 0;
+  padding: 20px 0;
+  width: 100%;
+  margin: auto;
+  margin-right: 50px;
 }
 
-nav li {
-  	display: inline-block;
-  	width: 80px;
+nav ul {
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+	text-align: right;
+}
+
+nav ul li {
+	display: inline;
+	padding: 10px;
 }
 
 nav li a {
 	color: #fff;
-  	font-family: 'Raleway', sans-serif;
-  	font-weight: 600;
-  	font-size: 12px;
-  	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 20px 20px;
+}
+
+.menu-link:hover {
+	color: #1A43BF;
+	background-color: #fff;
+	transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.menu-link:active {
+	color: #5495ff;
+	background-color: #fff;
+	font-size: 18px;
 }
 
 main {
@@ -36,19 +74,19 @@ main {
 }
 
 footer {
-	background-color: #333;
-  	color: #fff;
+	background-color: #051650;
+	/* background-color: #2176FF; */
+  color: #fff;
 	padding: 30px 0;
-	/* UNDO if wanted to keep footer FIXED 
-	position: fixed;
+	width: 100%;
+	position: absolute;
 	bottom: 0px;
-	width: 100%;*/
 }
 
 footer p {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .container {
