@@ -1,0 +1,64 @@
+html, body {
+  	margin: 0;
+  	padding: 0;
+}
+
+header {
+	background-color: #333333;
+	position: fixed;
+	top: auto;
+	width: 940px;
+	z-index: 10;
+	width: 100%;
+}
+
+nav {
+ 	margin: 0;
+  	padding: 20px 0;
+}
+
+nav li {
+  	display: inline-block;
+  	width: 80px;
+}
+
+nav li a {
+	color: #fff;
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 600;
+  	font-size: 12px;
+  	text-decoration: none;
+}
+
+main {
+	position: relative;
+	top: 80px;
+}
+
+footer {
+	background-color: #333;
+  	color: #fff;
+	padding: 30px 0;
+	/* UNDO if wanted to keep footer FIXED 
+	position: fixed;
+	bottom: 0px;
+	width: 100%;*/
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
