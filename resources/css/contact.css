@@ -1,0 +1,33 @@
+.contact {
+    width: 600px;
+    height: 400px;
+    border: 1px solid #1A43BF;
+    border-radius: 10px;
+    margin: 50px auto 50px auto;
+}
+
+.contact h1 {
+    color: #1A43BF;
+    padding-top: 90px;
+    padding-left: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.contact h3 {
+    color: rgba(0,128,249,1);
+    font-family: 'Roboto', sans-serif;
+    padding-left: 80px;
+    padding-top: 35px;
+}
+
+.contact h3 span a {
+    text-decoration: none;
+    font-weight: 300;
+    color: rgba(0,128,249,1);
+}
+
+.contact h3 span a:hover {
+    color: lightskyblue;
+}

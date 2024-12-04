@@ -1,82 +1,82 @@
 html, body {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	/*background-color: #00072D;*/
-	font-family: 'Raleway', sans-serif;
+    /*background-color: #00072D;*/
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
-	/*background-color: #051650;*/
-	top: 0px;
-	z-index: 999;
-	width: 100%;
-	display: flex;
-	background-color: white;
-	height: 130px;
-	border-bottom: 2px solid #1A43BF;
+    /*background-color: #051650;*/
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    height: 130px;
+    border-bottom: 2px solid #1A43BF;
 }
 
 .logo {
-	display: inline;
-	padding: 25px 10px;
-	margin: -10px 5px;
+    display: inline;
+    padding: 25px 10px;
+    margin: -10px 5px;
 }
 
 .logo-text {
-	color: #1A43BF;
-	border-radius: 15px;
-	border: double .1em transparent;
-	font-size:30px;
-	padding: 5px 20px;
-	background-image: linear-gradient(white, white), linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
-	background-origin: border-box;
-	background-clip: padding-box, border-box;
+    color: #1A43BF;
+    border-radius: 15px;
+    border: double .1em transparent;
+    font-size:30px;
+    padding: 5px 20px;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
 }
 
 .name {
-	color: #1A43BF;
-	font-family: Montserrat;
-	font-size: 60px;
-	margin: auto;
-	padding-left: 15px;
+    color: #1A43BF;
+    font-family: Montserrat;
+    font-size: 60px;
+    margin: auto;
+    padding-left: 15px;
 }
 
 nav {
-  padding: 10px 0;
-  width: 80%;
-  margin: auto;
-  margin-right: 50px;
+    padding: 10px 0;
+    width: 80%;
+    margin: auto;
+    margin-right: 50px;
 }
 
 nav ul {
-	width: 100%;
-	margin: 0;
-	padding: 20px;
-	text-align: right;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    text-align: right;
 }
 
 nav ul li {
-	display: inline;
-	padding: 10px;
+    display: inline;
+    padding: 10px;
 }
 
 nav li a {
-	color: #1A43BF;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	font-size: 18px;
-	text-decoration: none;
-	padding: 20px 20px;
+    color: #1A43BF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 20px;
 }
 
 .menu-link:hover {
-	color: #fff;
-	background-image: linear-gradient(278deg, rgba(2,0,36,1) 0%, rgba(84,227,246,1) 19%, rgba(0,128,249,1) 93%);
-	transition: color .3s ease-in-out, background-color .3s ease-in-out;
-	border-radius: 10px;
+    color: #fff;
+    background-image: linear-gradient(278deg, rgba(2,0,36,1) 0%, rgba(84,227,246,1) 19%, rgba(0,128,249,1) 93%);
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    border-radius: 10px;
 }
 
 /* Rethink about this
@@ -89,51 +89,74 @@ nav li a {
 
 /* Main information section */
 .main-container {
-	max-width: 920px;
-	top: 171px;
-	font-family: Roboto;
-	margin: auto;
+    max-width: 920px;
+    top: 171px;
+    font-family: Roboto;
+    margin: auto;
 }
 
 .text {
-	color: rgba(0,128,249,1);
-	font-family: Roboto;
+    color: rgba(0,128,249,1);
+    font-family: Roboto;
 }
 .description {
-	text-align: left;
-	font-size: 70px;
-	font-weight: 300;
+    text-align: left;
+    font-size: 70px;
+    font-weight: 300;
 }
 
 .narrative {
-	font-size: 25px;
-	font-weight: 300;
+    font-size: 25px;
+    font-weight: 300;
 }
 
 .bold {
-	font-weight: 400;
+    font-weight: 400;
 }
 
 /* Footer content */
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
-  text-align: center;
-}
-
 footer {
-	background-color: #051650;
-	/* background-color: #2176FF; */
-	color: #fff;
-	padding: 30px 0;
-	width: 100%;
-	/*position: absolute;
-	bottom: 0px;*/
+    background-color: #051650;
+    /* background-color: #2176FF; */
+    color: #fff;
+    padding: 30px 0;
+    width: 100%;
 }
 
-footer p {
-	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
-	font-size: 14px;
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+}
+
+.social-links {
+    display: inline;
+    margin-left: 25px;
+}
+
+.social-links h2 {
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+.social-links a img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 20px 30px auto auto;
+    font-weight: 200;
+}
+
+.see-more a {
+    text-decoration: none;
+}
+
+.see-more a:hover {
+    color: darkgray;
 }
